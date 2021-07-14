@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اللعبة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="messageBlock">
+            <h1>مـرحبـــا بــكـم فـي لــعـبــة ولــيــــد</h1>
+            <h1>$ معا لـنتـعلم توحـيــد ربنـا $<span id=""></span></h1>
+            <h1>أتمنى أن تنال إعجابكم<span id=""></span></h1>
+            <button id="startBtn" class="buton">إبدأ الآن</button>
+        </div>
+        <div class="main-window">
+           <center> <h2 id="timer"><span id="timerSpan" style="width: 1%;"></span></h2></center>
+            <table>
+                <tr>
+                    <td style="color: rgb(0, 255, 13);background-color: rgba(0, 255, 0, 0.250);">
+                        <h3>الـنــقــــاط : <span id="score">0</span> </h3>
+                    </td>
+                    <td style="color: rgb(255, 0, 0); background-color: rgba(255, 0, 0, 0.250);">
+                        <h3>الأخطـاء : <span id="wrong">0</span>/3</h3>
+                    </td>
+                </tr>
+            </table>
+            <div class="options">
+                <div class="question">
+                    <h2></h2>
+                </div>
+                <p class="option"></p>
+                <p class="option"></p>
+                <p class="option"></p>
+                <p class="option"></p>
+                <center><button id="btn" class="buton">التالي</button></center>
+            </div>
+            <div>
+                <h4 id="warning" style="margin-bottom: 0%;"></h4>
+            </div>
+        </div>
+        <div class="messageBlock" style="background-color: rgba(255, 99, 71, 0.970);">
+            <h1>انتـهت اللعبـة</h1>
+            <h1>عدد الأجوبة الصحيحة : <span id="scoreBlock"></span></h1>
+            <h1>عدد الأجوبة الخــاطئة : <span id="wrongBlock"></span></h1>
+            <button id="tryAgainBtn" class="buton">حاول مجددا</button>
+        </div>
+        <h2 id="follow">تمت بفضل الله من طرف رحامنية وليد</h2>
+    </center>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
